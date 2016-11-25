@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/BaseAppTheme">
+    </style>
+
+
+    <!-- popupwindow style -->
+    <style name="PopupAnimation" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_popmenu_show</item>
+        <item name="android:windowExitAnimation">@anim/anim_popmenu_hide</item>
+    </style>
+
+
+</resources>
